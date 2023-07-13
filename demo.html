@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style>
+
+        body{
+           /* background-image: url(img2.webp);
+           background-repeat: no-repeat;
+           background-size: cover; */
+           /* background-position: center; */
+           background-color: #6527BE;
+        }
+
+      .container{
+       
+        border-radius: 4px;
+        margin-left: 300px;
+        margin-right: 300px;
+        padding: 30px;
+        /* text-align: centre;
+        margin:auto; */
+
+        .heading1{
+            text-align: center;
+            color: white;
+        }
+
+        .heading2{
+            text-align: center;
+        }
+
+        .inputbox{
+            border: 2px solid black;
+            border-radius: 40px;
+            /* background: transparent; */
+            height: 30px;
+            outline: none;
+        }
+        
+        .inputbox input {
+            color: white;
+        }
+
+        #add, #edit{
+            width: 70px;
+            height: 30px;
+            border-radius: 20px;
+        }
+
+      } 
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1 class="heading1">Todo List</h1>
+    <h2 class="heading2">
+        <input class="inputbox" type="text" placeholder="Enter Into Todo List" size="35">
+        <button id="add">Add</button>
+        <button id="edit">Edit</button>
+    </h2>
+</div>
+    <ul style="margin: 20px;"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
